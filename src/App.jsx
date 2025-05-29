@@ -19,9 +19,9 @@ const App = () => {
 
           <div className='xl:flex justify-between h-[22.5rem] mb-16 md:mb-[7.5rem] xl:mx-auto'>
             <img className='hidden xl:block w-[394px] h-[303px]' src={heroLeftImage} alt="Profile Pictures" />
-            <div>
+            <div className='xl:self-end'>
               <h1 className='md:w-[10ch] mb-6 xl:mb-8 md:mx-auto text-[2.5rem] md:text-[3rem] xl:text-[4rem] font-black text-center leading-110 tracking-0 text-slate-900'>Group Chat for Everyone</h1>
-              <p className='md:w-[38ch] mb-6 xl:mb-8 md:mx-auto text-[1rem] xl:text-[1.125rem] font-medium text-center leading-150 tracking-0 text-slate-600'>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+              <p className='md:w-[38ch] xl:w-[37ch] mb-6 xl:mb-8 md:mx-auto text-[1rem] xl:text-[1.125rem] font-medium text-center leading-150 tracking-0 text-slate-600'>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
               <div className='flex justify-center flex-wrap gap-4 w-full'>
                 <a className='py-4 px-[2.5rem] text-base font-black leading-150 tracking-normal bg-[var(--cyan-600)] hover:bg-[#71C0D4] text-white rounded-full' href="#">Download &nbsp;<span className='leading-150 tracking-0 text-[var(--cyan-300)]'>v1.3</span></a>
                 <a className='py-4 px-[2.5rem] text-base font-black leading-150 tracking-normal bg-[var(--purple-600)] hover:bg-[#B18BDD] text-white rounded-full' href="#">What is it?</a>
@@ -47,7 +47,7 @@ const App = () => {
           </div>
           <div className='mb-24 md:mb-16 xl:mb-[4.5rem] text-center'>
             <p className='mb-4 text-[0.75rem] md:text-[0.875rem] xl:text-[1rem] font-black leading-110 tracking-[0.25rem] uppercase text-[var(--cyan-600)]'>Built for modern use</p>
-            <h2 className='md:w-[17ch] md:mx-auto mb-[2rem] text-[2rem] md:text-[2.25rem] xl:text-[2.5rem] font-black leading-110 tracking-normal text-[var(--slate-900)]'>Smarter meetings, all in one place</h2>
+            <h2 className='md:w-[17ch] xl:w-[16ch] md:mx-auto mb-[2rem] text-[2rem] md:text-[2.25rem] xl:text-[2.5rem] font-black leading-110 tracking-normal text-[var(--slate-900)]'>Smarter meetings, all in one place</h2>
             <p className='md:w-[47ch] xl:w-[46ch] md:mx-auto text-[1rem] xl:text-[1.125rem] font-medium leading-150 tracking-normal text-[var(--slate-600)]'>Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
           </div>
           <div className='z-10 relative mb-[-1.75rem] mx-auto'>
@@ -59,7 +59,7 @@ const App = () => {
         </section>
       </main>
 
-      <footer className='relative py-16 px-9 md:px-[8.25rem] xl:px-0 text-center text-[var(--white)] bg-desktop-footer bg-cover bg-top bg-no-repeat' >
+      <footer className='relative py-16 px-9 md:px-[8.25rem] xl:px-0 text-center text-[var(--white)] bg-desktop-footer bg-cover bg-top bg-no-repeat'>
         {/* ---------- Overlay ---------- */}
         <div className="absolute inset-0 bg-[var(--cyan-600)] opacity-80"></div>
         {/* ---------- Content ---------- */}

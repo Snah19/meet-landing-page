@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer fonts {
+  /* red-hat-display-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./assets/fonts/red-hat-display-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* red-hat-display-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./assets/fonts/red-hat-display-v20-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+}
+
+@layer colors {
+  :root {
+    --cyan-600: #4D96A9;
+    --cyan-300: #8FE3F9;
+    --purple-600: #855FB1;
+    --purple-300: #D9B8FF;
+    --slate-900: #28283D;
+    --slate-600: #87879D;
+    --slate-300: #D1D1DF;
+    --white: #fafafa;
+  }
+}
+
+@layer scrollbar {
+  ::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #00000033;
+    border-radius: 10px;
+  }
+
+  * {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #00000033 transparent;
+  }
+}

@@ -59,7 +59,7 @@ const App = () => {
         </section>
       </main>
 
-      <footer className='relative py-16 px-9 md:px-[8.25rem] xl:px-0 text-center text-[var(--white)] bg-desktop-footer bg-cover bg-top bg-no-repeat'>
+      <footer className='relative py-16 px-9 md:px-[8.25rem] xl:py-28 xl:px-0 text-center text-[var(--white)] bg-desktop-footer bg-cover bg-top bg-no-repeat'>
         {/* ---------- Overlay ---------- */}
         <div className="absolute inset-0 bg-[var(--cyan-600)] opacity-80"></div>
         {/* ---------- Content ---------- */}
